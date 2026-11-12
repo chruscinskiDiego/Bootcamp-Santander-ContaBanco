@@ -1,22 +1,22 @@
-# Conta bancária no terminal
+# Bank account details in the terminal
 
-Exercício do Bootcamp Santander 2024 para praticar entrada de dados e manipulação de strings em Java.
+Java exercise from Santander Bootcamp 2024 for practicing input handling and string manipulation.
 
-## O que faz
+## Features
 
-- Solicita número da conta, agência, nome e saldo pelo terminal.
-- Exibe uma mensagem de confirmação com os dados informados.
-- Permite encerrar o fluxo antes do cadastro.
+- Reads an account number, branch, customer name and balance from the terminal.
+- Displays a confirmation message using the supplied details.
+- Allows the user to leave before entering account information.
 
-## Executar
+## Run locally
 
-Com um JDK instalado, na raiz do repositório:
+With a JDK installed, run from the repository root:
 
 ```bash
 javac -encoding UTF-8 -d out src/ContaTerminal.java
 java -cp out ContaTerminal
 ```
 
-## Conceitos praticados
+## Concepts practiced
 
-Scanner, tipos básicos, condicionais e concatenação de strings. É uma simulação didática: os dados não são persistidos e não há integração bancária.
+Scanner, basic types, conditionals and string concatenation. This is a teaching exercise: data is not persisted and there is no banking integration.
